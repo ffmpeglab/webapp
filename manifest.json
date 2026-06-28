@@ -2,8 +2,8 @@
   "background_color": "#000000",
   "display": "standalone",
   "lang": "en",
-  "name": "ffmpeglab",
-  "short_name": "ffmpeglab",
+  "name": "starpy",
+  "short_name": "starpy",
   "start_url": "/?utm_source=web_app_manifest",
   "orientation": "portrait",
   "related_applications": [
