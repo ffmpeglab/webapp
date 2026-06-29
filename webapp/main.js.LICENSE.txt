@@ -18,17 +18,11 @@ object-assign
  * Copyright (c) hammerjs
  * Licensed under the MIT license */
 
-/*! MIT License. Copyright 2015-2022 Richard Moore <me@ricmoo.com>. See LICENSE.txt. */
-
 /*! drag-drop. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
 
 /*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
 
 /*! noble-ciphers - MIT License (c) 2023 Paul Miller (paulmillr.com) */
-
-/*! noble-curves - MIT License (c) 2022 Paul Miller (paulmillr.com) */
-
-/*! noble-hashes - MIT License (c) 2022 Paul Miller (paulmillr.com) */
 
 /*! queue-microtask. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
 
@@ -72,6 +66,16 @@ object-assign
 
 /**
  * @license React
+ * react-is.development.js
+ *
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
  * react-jsx-runtime.development.js
  *
  * Copyright (c) Meta Platforms, Inc. and affiliates.
@@ -83,6 +87,16 @@ object-assign
 /**
  * @license React
  * scheduler.development.js
+ *
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * use-sync-external-store-with-selector.development.js
  *
  * Copyright (c) Meta Platforms, Inc. and affiliates.
  *
