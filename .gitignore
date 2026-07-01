@@ -2,9 +2,8 @@ node_modules/
 
 src/*.js
 src/**/*.js
-
+*.js.map
 .env
-dist
 
 .DS_Store
 
