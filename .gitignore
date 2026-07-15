@@ -2,6 +2,7 @@ node_modules/
 
 src/*.js
 src/**/*.js
+config.json
 *.js.map
 .env
 
