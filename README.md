@@ -73,8 +73,8 @@ services:
       - EVOLU_DB_NAME=ffmpeglab
       - PEXELS_API_HOST=https://pexels.starpy.me/
       - PUBLIC_HOST=https://localhost:8080/
-      - SUPABASE_HOST=${YOUR_SUPABASE_API_URL}
-      - SUPABASE_ANON_KEY=${YOUR_SUPABASE_KEY}
+      - SUPABASE_HOST=https://office.starpy.me
+      - SUPABASE_ANON_KEY=asfasfasf
 
   evolu:
     image: ffmpeglab/evolu:main
