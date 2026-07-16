@@ -68,10 +68,9 @@ services:
     ports:
       - "8080:8080"
     environment:
-      - FFMPEGLAB_HOST="http://localhost:8080/webapp/"
+      - PUBLIC_HOST="https://localhost:8080/webapp/"
       - EVOLU_DB_HOST="http://localhost:3000"
       - EVOLU_DB_NAME="ffmpeglab"
-      - PUBLIC_HOST="https://localhost:8080/"
       - SUPABASE_HOST="${YOUR_SUPABASE_API_URL}"
       - SUPABASE_ANON_KEY="${YOUR_SUPABASE_KEY}"
 
