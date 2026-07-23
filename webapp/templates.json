@@ -5,6 +5,10 @@
         "category": "Default",
         "mediaUrl": "blank",
         "description": "Empty Template 1920x1080",
+        "isBlank":true,
+        "projectWidth":1920,
+        "projectHeight":1080,
+        "projectAspectRatio":"16/9",
         "link": " /webapp/editor/project/53155f80-fc7a-4968-bdee-1eb9aa061e16?mnemonic=somebody%20describe%20studying%20vertical%20adjective%20describe%20structure%20personal%20dangerous%20accurate%20perfectly%20pictured&parentFolderId=folder_bb98aa8e-1ac0-4edb-8070-3f7f2957965f_d9b7a9af-3918-4bf8-b02e-12371933d772&title=blank%20fullhd&chatId=61a8747d-bfba-4707-a62c-974393b7dac2"
     },
     {
@@ -12,6 +16,10 @@
         "title": "Blank Portrait",
         "category": "Default",
         "mediaUrl": "blank",
+        "isBlank":true,
+        "projectWidth":1080,
+        "projectHeight":1920,
+        "projectAspectRatio":"9/16",
         "description": "Empty Template 1080x1920",
         "link": "/webapp/editor/project/e69dcce2-fed1-472d-bbf3-4c5885395e94?mnemonic=national%20describe%20correctly%20connected%20combination%20especially%20satellites%20railroad%20relationship%20probably%20organization%20particularly&parentFolderId=folder_bb98aa8e-1ac0-4edb-8070-3f7f2957965f_d9b7a9af-3918-4bf8-b02e-12371933d772&title=blank%20portrait&chatId=dc831856-2ed9-4912-9db9-b6241165afa1"
     },
