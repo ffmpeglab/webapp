@@ -5,6 +5,7 @@
         "db_name":"ffmpeglab21",
         "supabase_host":"https://office.starpy.me",
         "pexels_api_url": "https://pexels.starpy.me/",
+        "ffmpeglab_api_url": "https://api.ffmpeglab.com/",
         "supabase_anon_key":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlzcyI6InN1cGFiYXNlIiwiaWF0IjoxNzg1MTU0MzA0LCJleHAiOjE5NDI4MzQzMDR9.ugTwq8TI7APnWFHg7URmB1tW5YaTc_ZnWuuwiJaeRo8"
     }
 }
