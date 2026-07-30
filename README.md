@@ -30,7 +30,7 @@ FFmpegLab is a powerful, browser-based video editing environment that runs entir
 
 The fastest way to try FFmpegLab is to open it in your browser:
 
-👉 **[ffmpeglab.com/webapp](https://ffmpeglab.com/webapp)**
+👉 **[webapp.ffmpeglab.com/webapp](https://webapp.ffmpeglab.com/webapp)**
 
 No account, no download, no installation. Just open the link and start editing.
 
@@ -69,6 +69,7 @@ services:
       - "8080:8080"
     environment:
       - FFMPEGLAB_HOST=http://localhost:8080/webapp/
+      - FFMPEGLAB_API=http://localhost:3000
       - EVOLU_DB_HOST=http://localhost:4000
       - EVOLU_DB_NAME=ffmpeglab
       - PEXELS_API_HOST=https://pexels.starpy.me/
