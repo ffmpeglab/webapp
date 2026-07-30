@@ -122,6 +122,7 @@ FFmpegLab supports environment variables for configuration and parameterized wor
 | Variable | Description |
 |----------|-------------|
 | `FFMPEGLAB_HOST` | Host URL for the webapp |
+| `FFMPEGLAB_API` | Host URL for the ffmpeglab server |
 | `EVOLU_DB_HOST` | Database host URL |
 | `EVOLU_DB_NAME` | Database name |
 | `PUBLIC_HOST` | Public-facing host URL |
