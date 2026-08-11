@@ -1,4 +1,3 @@
 #!/bin/sh
-envsubst < ./config_template.json > ./webapp/config.json
-
-nginx -g daemon off
+envsubst < /usr/share/nginx/html/config_template.json > /usr/share/nginx/html/webapp/config.json
+nginx -g 'daemon off;'

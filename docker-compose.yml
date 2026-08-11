@@ -1,8 +1,8 @@
 services:
   ffmpeglab:
-    image: ffmpeglab/ide:main
+    image: ffmpeglab/ide
     ports:
-      - "8080:8080"
+      - "8080:80"
     environment:
       - FFMPEGLAB_HOST=http://localhost:8080/webapp/
       - FFMPEGLAB_API=http://localhost:3000
@@ -14,7 +14,7 @@ services:
       - SUPABASE_HOST=https://office.starpy.me
       - SUPABASE_ANON_KEY=123456789qwerty
 
-  # evolu:
-  #   image: evoluhq/evolu:pr-5
-  #   ports:
-  #     - "4000:4000"
+  evolu:
+    image: evoluhq/evolu:pr-5
+    ports:
+      - "4000:4000"
