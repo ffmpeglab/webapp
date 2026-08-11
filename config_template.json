@@ -1,11 +1,12 @@
 {
     "config":{
-        "public_host":"${PUBLIC_HOST}",
-        "db_host":"${EVOLU_DB_HOST}",
-        "db_name":"${EVOLU_DB_NAME}",
+        "public_host": "${PUBLIC_HOST}",
+        "db_host": "${EVOLU_DB_HOST}",
+        "db_name": "${EVOLU_DB_NAME}",
         "pexels_api_url": "${PEXELS_API_HOST}",
-        "supabase_host":"${SUPABASE_HOST}",
+        "supabase_host": "${SUPABASE_HOST}",
         "ffmpeglab_api_url": "${FFMPEGLAB_API}",
+        "ffmpeglab_api_key": "${FFMPEGLAB_API_KEY}",
         "supabase_anon_key":"${SUPABASE_ANON_KEY}"
     }
 }

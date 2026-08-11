@@ -1,4 +1,3 @@
 #!/bin/sh
 envsubst < ./config_template.json > ./webapp/config.json
-
-nginx -g daemon off
+http-server --proxy $PUBLIC_HOST? .
