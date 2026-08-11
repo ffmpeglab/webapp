@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "Blank FullHD",
+        "category": "Default",
+        "mediaUrl": "blank",
+        "description": "Empty Template 1920x1080",
+        "isBlank":true,
+        "projectWidth":1920,
+        "projectHeight":1080,
+        "projectAspectRatio":"16/9",
+        "link": " /webapp/editor/project/53155f80-fc7a-4968-bdee-1eb9aa061e16?mnemonic=somebody%20describe%20studying%20vertical%20adjective%20describe%20structure%20personal%20dangerous%20accurate%20perfectly%20pictured&parentFolderId=folder_bb98aa8e-1ac0-4edb-8070-3f7f2957965f_d9b7a9af-3918-4bf8-b02e-12371933d772&title=blank%20fullhd&chatId=61a8747d-bfba-4707-a62c-974393b7dac2"
+    },
+    {
+        "id": 2,
+        "title": "Blank Portrait",
+        "category": "Default",
+        "mediaUrl": "blank",
+        "isBlank":true,
+        "projectWidth":1080,
+        "projectHeight":1920,
+        "projectAspectRatio":"9/16",
+        "description": "Empty Template 1080x1920",
+        "link": "/webapp/editor/project/e69dcce2-fed1-472d-bbf3-4c5885395e94?mnemonic=national%20describe%20correctly%20connected%20combination%20especially%20satellites%20railroad%20relationship%20probably%20organization%20particularly&parentFolderId=folder_bb98aa8e-1ac0-4edb-8070-3f7f2957965f_d9b7a9af-3918-4bf8-b02e-12371933d772&title=blank%20portrait&chatId=dc831856-2ed9-4912-9db9-b6241165afa1"
+    },
+    {
+        "id": 3,
+        "title": "FFmpeg xfade transitions guide",
+        "description": "Syntax, duration &amp; offset, all 30+ presets, audio crossfades, and chaining transitions across clips.",
+        "link": "/webapp/editor/project/e8528e81-01d9-47e8-8aee-c3ded65d619f?mnemonic=policeman%20whenever%20successful%20excitement%20separate%20determine%20telephone%20entirely%20potatoes%20apartment%20location%20particles&parentFolderId=folder_bb98aa8e-1ac0-4edb-8070-3f7f2957965f_d9b7a9af-3918-4bf8-b02e-12371933d772&title=xfade&chatId=af262c9a-2888-44e1-94ad-7fb20391d2a2",
+        "mediaUrl": "https://www.ffmpeglab.com/media/xfade.mp4",
+        "category": "Transitions",
+        "heightRatio": 1.2,
+        "widthRatio": 1
+    },
+    {
+        "id": 4,
+        "title": "Ken Burns / Zoompan Effects – The Art of Motion",
+        "description": "Bring still images to life. Master the zoompan filter.",
+        "link": "/webapp/editor/project/18dc7f9b-cef0-4ab1-8220-bb35a147475f?mnemonic=immediately%20instrument%20exciting%20constantly%20simplest%20parallel%20discovery%20determine%20clothing%20industry%20shinning%20accurate&parentFolderId=folder_bb98aa8e-1ac0-4edb-8070-3f7f2957965f_d9b7a9af-3918-4bf8-b02e-12371933d772&title=zoompan-zoomin&chatId=1858c3ba-d350-4c52-a46b-f43ca50a0a7e",
+        "mediaUrl": "https://www.ffmpeglab.com/media/zoompan.mp4",
+        "category": "Effects",
+        "heightRatio": 1.2,
+        "widthRatio": 1
+    },
+    {
+        "id": 5,
+        "title": "Mixing audio with Amix",
+        "description": "Layer music, voiceover, and effects;  balance levels; duck with sidechaincompress; crossfade tracks.",
+        "link": "/webapp/editor/project/ae47fcbb-93ef-4df1-8581-cbd790b56431?mnemonic=substance%20paragraph%20ourselves%20pictured%20gradually%20disappear%20somebody%20atmosphere%20discover%20building%20mathematics%20thousand&parentFolderId=folder_bb98aa8e-1ac0-4edb-8070-3f7f2957965f_d9b7a9af-3918-4bf8-b02e-12371933d772&title=audiomix&chatId=b846367f-9953-40de-9157-86cc937ec8a1",
+        "category": "Audio",
+        "mediaUrl": "https://www.ffmpeglab.com/media/audiomix.mp4",
+        "heightRatio": 1.2,
+        "widthRatio": 1
+    }
+]
