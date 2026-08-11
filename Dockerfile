@@ -1,13 +1,11 @@
-FROM node:22-alpine
+FROM nginx
 
-RUN apk add --update gettext
- 
-RUN mkdir -p /home/node/app
+COPY nginx.conf /etc/nginx/nginx.conf
 
-WORKDIR /home/node/app/
+COPY webapp /usr/share/nginx/html/webapp
 
-COPY . .
+COPY entrypoint.sh /usr/share/nginx/html
 
-RUN npm i -g http-server
+WORKDIR /usr/share/nginx/html/
 
 CMD ["./entrypoint.sh"]

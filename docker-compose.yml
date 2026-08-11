@@ -6,6 +6,7 @@ services:
     environment:
       - FFMPEGLAB_HOST=http://localhost:8080/webapp/
       - FFMPEGLAB_API=http://localhost:3000
+      - FFMPEGLAB_API_KEY=qwerty123456789
       - EVOLU_DB_HOST=http://localhost:4000
       - EVOLU_DB_NAME=ffmpeglab
       - PEXELS_API_HOST=https://pexels.starpy.me/
@@ -13,7 +14,7 @@ services:
       - SUPABASE_HOST=https://office.starpy.me
       - SUPABASE_ANON_KEY=123456789qwerty
 
-  evolu:
-    image: evoluhq/evolu:pr-5
-    ports:
-      - "4000:4000"
+  # evolu:
+  #   image: evoluhq/evolu:pr-5
+  #   ports:
+  #     - "4000:4000"
