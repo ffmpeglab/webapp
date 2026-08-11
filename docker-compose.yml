@@ -2,7 +2,7 @@ services:
   ffmpeglab:
     image: ffmpeglab/ide
     ports:
-      - "8080:80"
+      - "7778:80"
     environment:
       - FFMPEGLAB_API=${FFMPEGLAB_API}
       - FFMPEGLAB_API_KEY=${FFMPEGLAB_API_KEY}
@@ -15,4 +15,4 @@ services:
   evolu:
     image: evoluhq/evolu:pr-5
     ports:
-      - "4000:4000"
+      - "4778:4000"
