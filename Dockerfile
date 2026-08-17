@@ -4,16 +4,20 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 COPY webapp /usr/share/nginx/html/webapp
 
+COPY webapp/* /usr/share/nginx/html/
+
 COPY templates.json /usr/share/nginx/html/webapp/templates.json
 
-COPY config_template.json /usr/share/nginx/html
+COPY config_template.json /usr/share/nginx/
 
-COPY entrypoint.sh /usr/share/nginx/html
+COPY entrypoint.sh /usr/share/nginx/
 
-EXPOSE 80
+COPY nginx.conf /usr/share/nginx/
+
+EXPOSE 3001
 
 STOPSIGNAL SIGQUIT
 
-WORKDIR /usr/share/nginx/html
+WORKDIR /usr/share/nginx/
 
-ENTRYPOINT ["/usr/share/nginx/html/entrypoint.sh"]
+ENTRYPOINT ["/usr/share/nginx/entrypoint.sh"]
