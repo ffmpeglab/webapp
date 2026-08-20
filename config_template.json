@@ -7,6 +7,7 @@
         "supabase_host": "${SUPABASE_HOST}",
         "ffmpeglab_api_url": "${FFMPEGLAB_API}",
         "ffmpeglab_api_key": "${FFMPEGLAB_API_KEY}",
+        "ffmpeglab_platform_host":"${FFMPEGLAB_PLATFORM}",
         "supabase_anon_key":"${SUPABASE_ANON_KEY}"
     }
 }

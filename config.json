@@ -1,6 +1,7 @@
 {
     "config":{
         "public_host":"https://webapp.ffmpeglab.com",
+        "ffmpeglab_platform_host":"https://platform.ffmpeglab.com",
         "db_host":"https://db.starpy.me",
         "db_name":"ffmpeglab21",
         "supabase_host":"https://office.starpy.me",
