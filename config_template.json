@@ -6,6 +6,7 @@
         "pexels_api_url": "${PEXELS_API_HOST}",
         "supabase_host": "${SUPABASE_HOST}",
         "ffmpeglab_api_url": "${FFMPEGLAB_API}",
+        "ffmpeglab_bucket": "${FFMPEGLAB_BUCKET}",
         "ffmpeglab_api_key": "${FFMPEGLAB_API_KEY}",
         "ffmpeglab_platform_host":"${FFMPEGLAB_PLATFORM}",
         "supabase_anon_key":"${SUPABASE_ANON_KEY}"
