@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Ultimate Video Onboarding Pipeline – YAML & SQL Triggers on Supabase",
+        "description": "Declarative pipeline definition with YAML, automatic SQL generation, and an SVG graph — built on PostgreSQL triggers, pgmq, and Supabase Storage.",
+        "link": "https://raw.githubusercontent.com/ffmpeglab/server/refs/heads/main/sdk/yaml/examples/video.yaml",
+        "category": "Video",
+        "heightRatio": 1.2,
+        "widthRatio": 1
+    },
+    {
+        "id": 2,
+        "title": "Audio Processing Pipeline for Podcasts – YAML & SQL Triggers on Supabase",
+        "description": "Declarative YAML pipeline for podcast audio processing: loudness normalization, noise reduction, waveform generation — all driven by SQL triggers and Supabase Storage.",
+        "link": "https://raw.githubusercontent.com/ffmpeglab/server/refs/heads/main/sdk/yaml/examples/audio.yaml",
+        "category": "Audio",
+        "heightRatio": 1.2,
+        "widthRatio": 1
+    }
+]
