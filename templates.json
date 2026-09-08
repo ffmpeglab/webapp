@@ -35,9 +35,39 @@
         "id": 4,
         "title": "Mixing audio with Amix",
         "description": "Layer music, voiceover, and effects;  balance levels; duck with sidechaincompress; crossfade tracks.",
-        "link": "/webapp/editor/project/85287076-1651-4885-831f-af1e2e7a8670?mnemonic=children%20straight%20captured%20adjective%20temperature%20machinery%20classroom%20fireplace%20consider%20instrument%20explanation%20research&parentFolderId=editor&title=videotogif&chatId=893371d5-cc53-487e-b753-97767b9cec49",
+        "link": "/webapp/editor/project/ae47fcbb-93ef-4df1-8581-cbd790b56431?mnemonic=substance%20paragraph%20ourselves%20pictured%20gradually%20disappear%20somebody%20atmosphere%20discover%20building%20mathematics%20thousand&parentFolderId=folder_bb98aa8e-1ac0-4edb-8070-3f7f2957965f_d9b7a9af-3918-4bf8-b02e-12371933d772&title=audiomix&chatId=b846367f-9953-40de-9157-86cc937ec8a1",
         "category": "Audio",
         "mediaUrl": "https://www.ffmpeglab.com/media/audiomix.mp4",
+        "heightRatio": 1.2,
+        "widthRatio": 1
+    },
+    {
+        "id": 5,
+        "title": "FFmpeg filter_complex effects, by example",
+        "description": "The filter_complex flag is where FFmpeg becomes a full video-effects engine. This guide walks through overlay, scale, pad, crop, color correction, and chroma key — then shows how to chain them into one custom filter graph.",
+        "link": "/webapp/editor/project/1386628c-43f1-4364-bdd8-edee5cccbb7b?mnemonic=constantly%20evidence%20pleasant%20consonant%20standard%20telephone%20operation%20powerful%20accident%20sentence%20remarkable%20railroad&title=filter-complex-overlay&chatId=83d31797-157a-482d-a07d-102a7785cd8c",
+        "category": "Effects",
+        "mediaUrl": "https://www.ffmpeglab.com/media/filtercomplex.mp4",
+        "heightRatio": 1.2,
+        "widthRatio": 1
+    },
+    {
+        "id": 5,
+        "title": "xstack FFmpeg Filter – Create Video Mosaics & Grids",
+        "description": "Stack multiple videos into custom layouts, split-screen grids, and collages — without the complex overlay chains. Master the xstack filter.",
+        "link": "/webapp/editor/project/9c92ef45-2508-4fb0-8379-4373f09c3677?mnemonic=particularly%20congress%20manufacturing%20contrast%20underline%20movement%20classroom%20definition%20whenever%20pleasant%20consonant%20religious&title=xstack%204",
+        "category": "Effects",
+        "mediaUrl": "https://www.ffmpeglab.com/media/xstack4.mp4",
+        "heightRatio": 1.2,
+        "widthRatio": 1
+    },
+    {
+        "id": 6,
+        "title": "How to convert video to GIF with FFmpeg",
+        "description": "Start with a quick one-liner, then use the palettegen / paletteuse two-step for crisp, banding-free GIFs — with control over frame rate, width, and file size.",
+        "link": "/webapp/editor/project/eb3b7f1e-8a80-4253-a8a3-14d53fe4497d?mnemonic=opposite%20invented%20wonderful%20combination%20parallel%20planning%20function%20connected%20solution%20practical%20mountain%20forgotten&parentFolderId=folder_bb98aa8e-1ac0-4edb-8070-3f7f2957965f_d9b7a9af-3918-4bf8-b02e-12371933d772&title=videotogif&chatId=b5ec33e3-1d89-4fe3-9df6-a5b729761b3d",
+        "category": "GIF",
+        "mediaUrl": "https://www.ffmpeglab.com/media/videotogif.mp4",
         "heightRatio": 1.2,
         "widthRatio": 1
     }
