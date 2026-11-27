@@ -1,6 +1,6 @@
 services:
   ffmpeglab-ide:
-    image: ffmpeglab/ide
+    image: ffmpeglab/ide:main
     ports:
       - "${FFMPEGLAB_UI_PORT}:${FFMPEGLAB_UI_PORT}"
     environment:
