@@ -2,7 +2,7 @@ FROM alpine/git AS builder
 
 WORKDIR /app
 
-RUN git clone https://github.com/ffmpeglab/ffmpeglab.com.git website
+RUN git clone https://github.com/ffmpeglab/ffmpeglab.com.git /app/website
 
 FROM nginx:alpine
 
