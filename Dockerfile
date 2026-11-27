@@ -1,10 +1,16 @@
+FROM alpine/git AS builder
+
+WORKDIR /app
+
+RUN git clone https://github.com/ffmpeglab/ffmpeglab.com.git website
+
 FROM nginx:alpine
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-COPY webapp /usr/share/nginx/html/webapp
+COPY --from=builder website/* /user/share/nginx/html/
 
-COPY webapp/* /usr/share/nginx/html/
+COPY webapp /usr/share/nginx/html/
 
 COPY templates.json /usr/share/nginx/html/webapp/templates.json
 

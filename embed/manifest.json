@@ -1,0 +1,22 @@
+{
+  "background_color": "#000000",
+  "display": "standalone",
+  "lang": "en",
+  "name": "starpy",
+  "short_name": "starpy",
+  "start_url": "/?utm_source=web_app_manifest",
+  "orientation": "portrait",
+  "related_applications": [
+    {
+      "platform": "itunes",
+      "url": "https://apps.apple.com/us/app/starpy/id6505044721",
+      "id": "me.starpy.complex"
+    },
+    {
+      "platform": "play",
+      "url": "http://play.google.com/store/apps/details?id=com.starpy.me",
+      "id": "com.starpy.me"
+    }
+  ],
+  "prefer_related_applications": true
+}
